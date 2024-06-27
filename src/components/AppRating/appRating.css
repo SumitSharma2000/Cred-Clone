@@ -73,6 +73,6 @@
      align-self: center;
     }
     .only-mobile {
-        display: block; /* Display the button when screen width is less than or equal to 767px */
+        display: block; 
     }
  }
