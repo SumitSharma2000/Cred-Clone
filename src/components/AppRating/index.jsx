@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./appRating.css";
 import Button from "../common/Button";
 

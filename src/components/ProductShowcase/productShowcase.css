@@ -1,4 +1,4 @@
-.product-showcase{
+.product-showcase {
     width: 100vw;
     height: 800px;
     position: relative;
@@ -8,56 +8,56 @@
     background-position: right top;
 }
 
-.showcase-wrapper{
+.showcase-wrapper {
     min-height: 70%;
 }
 
-.showcase-ui{
+.showcase-ui {
     position: absolute;
     bottom: 0;
     left: 50%;
 }
 
-.showcase-mockup-1{
+.showcase-mockup-1 {
     transform: translate(-160%, 25%);
     z-index: 98;
 }
 
-.showcase-mockup-2{
+.showcase-mockup-2 {
     transform: translate(-105%, 15%);
     z-index: 99;
 }
 
-.showcase-mockup-3{
+.showcase-mockup-3 {
     transform: translate(-50%, 5%);
     z-index: 100;
 }
 
-.showcase-mockup-4{
+.showcase-mockup-4 {
     transform: translate(5%, 15%);
     z-index: 99;
 }
 
-.showcase-mockup-5{
+.showcase-mockup-5 {
     transform: translate(60%, 25%);
     z-index: 98;
 }
 
-@media all and (max-width:1279){
-    .product-showcase{
+@media all and (max-width: 1279px) {
+    .product-showcase {
         height: 620px;
     }
-    .showcase-ui{
+    .showcase-ui {
         width: 300px;
     }
 }
 
-@media all and (max-width:767px){
-    .product-showcase{
+@media all and (max-width: 767px) {
+    .product-showcase {
         height: 450px;
         background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg-mobile.png);
     }
-    .showcase-ui{
+    .showcase-ui {
         width: 170px;
     }
 }

@@ -1,21 +1,25 @@
-.mobile-scroll{
+.mobile-scroll {
     position: relative;
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.scroll-full-screen-wrapper{
+
+.scroll-full-screen-wrapper {
     width: 50%;
 }
-.scroll-full-screen{
+
+.scroll-full-screen {
     min-width: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.mobile-mockup-wrapper{
+
+.mobile-mockup-wrapper {
     width: 50%;
 }
-.mobile-mockup{
+
+.mobile-mockup {
     position: sticky;
     top: 150px;
     transform: translateX(30%);
@@ -26,66 +30,69 @@
     max-height: 100vh;
     box-shadow: var(--mobile-box-shadow);
 }
-.mobile-mockup-screen{
+
+.mobile-mockup-screen {
     background-color: var(--mobile-bg);
     overflow: hidden;
     height: 100%;
     border-radius: inherit;
 }
-.mobile-screen-img{
+
+.mobile-screen-img {
     height: 100%;
     object-fit: contain;
 }
-.screen-heading{
+
+.screen-heading {
     font-size: 105px;
     font-weight: 700;
     line-height: 105px;
     margin-top: 50%;
 }
-.screen-text{
+
+.screen-text {
     opacity: 0;
     padding-bottom: 80px;
     max-width: 40vw;
 }
 
-.text-visible{
+.text-visible {
     opacity: 1;
-    transition: 0.75s;
+    transition: opacity 0.75s ease;
 }
 
-.screen-description{
+.screen-description {
     font-size: 18px;
     font-weight: 600;
     margin-top: 52px;
 }
 
-@media all and (max-width: 1279px){
-    .mobile-scroll{
+@media all and (max-width: 1279px) {
+    .mobile-scroll {
         padding-bottom: 30px;
     }
-    .mobile-mockup{
+    .mobile-mockup {
         width: 272px;
         height: 480px;
         transform: translateX(10%);
     }
-    .screen-heading{
+    .screen-heading {
         font-size: 70px;
         line-height: 70px;
         max-width: 40vw;
-        
     }
-    .screen-description{
+    .screen-description {
         font-size: 18px;
         margin-top: 44px;
     }
 }
 
-@media all and (max-width: 767px){
-    .screen-heading{
+@media all and (max-width: 767px) {
+    .screen-heading {
         font-size: 50px;
         line-height: 50px;
     }
-    .scroll-full-screen-wrapper{
+    .scroll-full-screen-wrapper {
         width: 100%;
     }
 }

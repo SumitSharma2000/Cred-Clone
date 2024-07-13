@@ -12,25 +12,24 @@ import CredStory from "../components/CredStory";
 import AppRating from "../components/AppRating";
 import Footer from "../components/common/Footer";
 
-
 const HomePage = () => {
   return (
-    <>
+    <main>
       <Header />
       <HeroSection />
       <ProductShowcase />
       <FeelSpecial />
       <BrandsLove />
       <CredExperience />
-      <MobileScroll/>
+      <MobileScroll />
       <div className="non-mobile">
         <WindowPeak />
       </div>
       <CredSecurity />
-      <CredStory/>
-      <AppRating/>
-      <Footer/>
-    </>
+      <CredStory />
+      <AppRating />
+      <Footer />
+    </main>
   );
 };
 
